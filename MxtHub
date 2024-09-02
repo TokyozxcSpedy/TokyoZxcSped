@@ -1,0 +1,231 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))() --This Will Load The Script Code
+local Window = Library.CreateLib("Tokyo hub", "Midnight") --This Will Make The Script Hub
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+
+local Player = game.Players.LocalPlayer
+
+function CorrectKeyAndLoadTheScript()
+         
+
+local Tab = Window:NewTab("Hub 1")
+local Section = Tab:NewSection("Hubs")
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "Tokyo"
+gui.Parent = game.CoreGui
+
+--screengui = gui
+
+
+
+	local TextButton = Instance.new("TextButton")
+-- Text
+TextButton.Text = "Tokyo"
+TextButton.TextSize = 24
+-- Color
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton.BorderColor3 = Color3.new(1, 1, 1)
+-- thickness
+TextButton.BorderSizePixel = 4
+-- Text Code
+TextButton.Font = Enum.Font.Code
+-- Size
+TextButton.Size = UDim2.new(0, 90, 0, 38)
+-- Posisition
+TextButton.Position = UDim2.new(0, 0, 0.4, 0)
+-- Function
+TextButton.MouseButton1Click:Connect (function()
+Library:ToggleUI()
+end)
+TextButton.Parent = gui
+TextButton.Draggable = true
+
+	local cornerUI = Instance.new("UICorner")
+cornerUI.CornerRadius = UDim.new(0, 5)
+cornerUI.Parent = TextButton
+
+	local uiStroke = Instance.new("UIStroke")
+    uiStroke.Color = Color3.new(0, 0, 0)
+    uiStroke.Thickness = 2
+    uiStroke.Parent = TextButton
+
+Section:NewButton("No Name hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoName-010/AFAS3000/main/Loader"))()
+    print("Clicked")
+end)Section:NewButton("Raymakk hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-ray-makk-script-CUSTOM-15914"))()
+    print("Clicked")
+end)Section:NewButton("Tariviste hub", "ButtonInfo", function()
+loadstring(game: HttpGet("https://raw .githubusercontent.com/Tariviste/Scripts /eaf7c8bdc00fcd01c656d9b4c103b6e4a260 e374/The%20Strongest%20Battlegrounds"))()
+    print("Clicked")
+end)Section:NewButton("Glacier hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))()
+    print("Clicked")
+end)Section:NewButton("Tam hub", "ButtonInfo", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/bettertamhub.lua")()
+    print("Clicked")
+end)local Tab = Window:NewTab("Hub 2")
+local Section = Tab:NewSection("Hubs or what idk")
+Section:NewButton("kilo meter hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/3gegto57/raw"))()
+    print("Clicked")
+end)Section:NewButton("NSExpression hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://github.com/1dontgiveaf/NSExpression/raw/main/script.lua", true))()
+    print("Clicked")
+end)Section:NewButton("Zygarde hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/Zygarde/main/Protected%20zygarde.lua"))()
+    print("Clicked")
+end)Section:NewButton("Pendulum hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+    print("Clicked")
+end)Section:NewButton("TSBG animation", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Kj-animation-15651"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("Hub 3")
+local Section = Tab:NewSection("Hubs")
+Section:NewButton("Aqua hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/aquarius-hub/raw"))()
+    print("Clicked")
+end)Section:NewButton("Betless hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+    print("Clicked")
+end)Section:NewButton("Zenon hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/gbwEzNX4/raw"))()
+    print("Clicked")
+end)Section:NewButton("Heich hub", "ButtonInfo", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
+    print("Clicked")
+end)local Tab = Window:NewTab("my moveset 1")
+local Section = Tab:NewSection("Characters or idk")
+Section:NewButton("Garou to Ten Shadow", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/eK3fMWTz/raw"))()
+    print("Clicked")
+end)Section:NewButton("Garou to Lebron James", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/JAlWLLvO/raw"))()
+    print("Clicked")
+end)Section:NewButton("Saitama to Gojo", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/KlYk2Xr4/raw"))()
+    print("Clicked")
+end)Section:NewButton("Saitama to Gojo 2 (this script from Kyra)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Sorcerer-Everybody-Knows-or-Baldy-To-Sorcerer-17616"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Ichigo", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/NRUEKDJz/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("my moveset 2")
+local Section = Tab:NewSection("Characters custom")
+Section:NewButton("saitama to Mahito (credit to: qaiddanial2904)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/GxXX26vs/raw"))()
+    print("Clicked")
+end)Section:NewButton("Hydra moveset (my moveset)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/Jldr9ePd/raw"))()
+    print("Clicked")
+end)Section:NewButton("Genos awakened", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/aUUIl6bi/raw"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Sukuna", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/toGhuDOb/raw"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Gojo (beta)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/SfpNWwTa/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("Revive after dead quotes")
+local Section = Tab:NewSection("Credit to raybutbetter")
+Section:NewButton("Gojo revive for saitama to gojo (just use once)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/D7mFyUHx/raw"))()
+    print("Clicked")
+end)Section:NewButton("Megumi revive", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/8K2FmQo5/raw"))()
+    print("Clicked")
+end)Section:NewButton("Sukuna revive", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/h3Eq9n27/raw"))()
+    print("Clicked")
+end)Section:NewButton("Ichigo revive", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/O9x83cfj/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("part 2 Tokyo hub soon")
+Section:NewButton("dont mind about this", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/sussy's%20animation%20logger.txt",true))()
+    print("Clicked")
+end)Section:NewButton("tester: staticnoy, cute_cat.idk, sosukeaizen56,...", "ButtonInfo", function()
+    print("Clicked")
+end)Section:NewButton("helper: staticnoy, bestmobileplayer8328, sosukeaizen56", "ButtonInfo", function()
+    print("Clicked")
+end)Section:NewButton("script owner: Tokyozxc", "ButtonInfo", function()
+    print("Clicked")
+local Tab = Window:NewTab("??? dont ask credit")
+local Section = Tab:NewSection("???????????")
+Section:NewButton("Ń̴̯̎Ẻ̴̗̙̟W̴̺͒", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/Yk7clVVA/raw"))()
+    print("Clicked")
+local Section = Tab:NewSection("???????????")
+Section:NewButton("Ń̴̯̎Ẻ̴̗̙̟W̴̺͒", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1BeBG2Ch"))()
+    print("Clicked")
+end) --This Where You Put The Script That Will Be Loaded If The Key Is Correct
+end
+
+OrionLib:MakeNotification({
+	Name = "Logged In!",
+	Content = "You need key "..Player.Name..".",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+}) --Notification
+
+getgenv().Key = "Tokyo1234" --Put The Correct Key Here
+getgenv().KeyInput = "Tokyozxc1234" --KeyInput Require To Make The Key Work
+
+local Tab = Window:NewTab("KEY SYSTEM") --This Will Make A Tab
+
+local Section = Tab:NewSection("Key System") --This Will Make A Section
+
+Section:NewTextBox("Enter Key", "Key", function(Value)
+		getgenv().KeyInput = Value
+end) 
+
+Section:NewButton("Check Key (must click enter before check key)", "This Will Check The Key You Enter", function()
+            if getgenv().KeyInput == getgenv().Key then
+            OrionLib:MakeNotification({
+                Name = "Checking Key",
+                Content = "Checking The Key You Entered",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(2)
+            OrionLib:MakeNotification({
+                Name = "Correct Key!",
+                Content = "The key you entered is Valid.",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(.3)
+            CorrectKeyAndLoadTheScript()
+        else
+           OrionLib:MakeNotification({
+                Name = "Checking Key",
+                Content = "Checking The Key You Entered",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+            wait(2)
+            OrionLib:MakeNotification({
+                Name = "Incorrect Key!",
+                Content = "The key you entered is invalid.",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+        end
+end)  
+
+Section:NewButton("Copy Link", "ButtonInfo", function()
+          		setclipboard("https://discord.com/invite/QkxS2t5Z") --Put The Link Here
+          OrionLib:MakeNotification({
+                Name = "Copied Link!",
+                Content = "Success Copied Link.",
+                Image = "rbxassetid://4483345998",
+                Time = 5
+            })
+end) 
